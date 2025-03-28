@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos\Shaders">
+      <UniqueIdentifier>{e004d031-4dd4-4dd7-8321-ed0d0c725126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Textures">
+      <UniqueIdentifier>{9b352467-9cd3-4be2-961b-c26aca6d6cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ECS">
+      <UniqueIdentifier>{36f76909-1556-4b8f-8cbc-103bef6decc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\ECS">
+      <UniqueIdentifier>{15b5fabf-efcd-4da5-8c8e-8776326b27b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Scripts">
+      <UniqueIdentifier>{9fff57fe-4865-4572-a875-8b3c4d5a17bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Scripts">
+      <UniqueIdentifier>{f3909bc2-36a0-4b4e-8b8a-9d5e2621a5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Meshes">
+      <UniqueIdentifier>{c670ba48-e70c-4e8a-84a0-77471339641d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Archivos de origen\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp">
+      <Filter>Archivos de origen\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Archivos de origen\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Components.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptSystem.cpp">
+      <Filter>Archivos de origen\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstPersonCameraScript.cpp">
+      <Filter>Archivos de origen\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnerScript.cpp">
+      <Filter>Archivos de origen\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxScript.cpp">
+      <Filter>Archivos de origen\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityScript.cpp">
+      <Filter>Archivos de origen\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="BarrelScript.cpp">
+      <Filter>Archivos de origen\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="TextScript.cpp">
+      <Filter>Archivos de origen\Scripts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.vert">
+      <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+    <None Include="default.frag">
+      <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+    <None Include="inverted.frag">
+      <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+    <None Include="repeating.frag">
+      <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+    <None Include="unlit.vert">
+      <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+    <None Include="unlit.frag">
+      <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+    <None Include="skybox.vert">
+      <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+    <None Include="skybox.frag">
+      <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+    <None Include="barrel.frag">
+      <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+    <None Include="barrel.vert">
+      <Filter>Archivos de recursos\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="EBO.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS.h">
+      <Filter>Archivos de encabezado\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>Archivos de encabezado\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Archivos de encabezado\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.h">
+      <Filter>Archivos de encabezado\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Archivos de encabezado\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptSystem.h">
+      <Filter>Archivos de encabezado\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstPersonCameraScript.h">
+      <Filter>Archivos de encabezado\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnerScript.h">
+      <Filter>Archivos de encabezado\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxScript.h">
+      <Filter>Archivos de encabezado\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityScript.h">
+      <Filter>Archivos de encabezado\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrelScript.h">
+      <Filter>Archivos de encabezado\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="TextScript.h">
+      <Filter>Archivos de encabezado\Scripts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\science_dog.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\background_brown.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\ball_blue_small.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\button_yellow.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\button_blue.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\cyborgFemaleA.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\skybox.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\skybox2.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\wall.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\bricks_albedo.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\bricks_normal.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\flat_normal.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\Texturas_plataformas.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\gravity_icon.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\gravity_icon_2.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\casco_astronauta.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\space_skybox.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\text_nave.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\congrats.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\surviving_space.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\congrats2.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\Recurso 2.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\surviving2.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\milkyway.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\HDR-Solar-system.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+    <Image Include="Textures\solar_system.png">
+      <Filter>Archivos de recursos\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Meshes\cube.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\teapot.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\teapot2.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\characterMedium.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\structure.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\boat_large.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\WOLF.OBJ">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\Register.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\char.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\flipped_sphere.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\plane.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\plataforma_normal.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\plataforma_side.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\plataforma_corner.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\plataforma_straight.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\plataforma_end.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\plataforma_corner_extra.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\plataforma_unic.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\plataforma_elevada.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\plataforma_elevada_extra.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\columna_small.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\columna_big.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\barril.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\barriles.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\gate.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+    <Object Include="Meshes\nave.obj">
+      <Filter>Archivos de recursos\Meshes</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
